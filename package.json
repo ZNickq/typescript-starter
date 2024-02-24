@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "npm run rollup:w",
+    "rollup": "rollup -c",
+    "rollup:w": "rollup -c -w",
+    "build": "npm run rollup"
+  },
+  "devDependencies": {
+    "@rollup/plugin-run": "^3.0.2",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "rollup": "^4.9.4",
+    "tslib": "2.6.2",
+    "typescript": "^5.3.3"
+  }
+}
